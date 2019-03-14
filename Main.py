@@ -7,6 +7,6 @@ def right_justify(string_to_be_justified):
     string_to_be_justified: String which needs to be right justified
     """
     empty_space = " " * (70 - len(string_to_be_justified))
-    justified_string = empty_space+string_to_be_justified + 'f'
+    justified_string = empty_space+string_to_be_justified
     print(justified_string)
 
